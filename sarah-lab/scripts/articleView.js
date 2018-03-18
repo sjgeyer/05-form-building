@@ -95,7 +95,7 @@ articleView.initNewArticlePage = () => {
 articleView.create = () => {
   // Clear out the #articles element, so we can put in the updated preview
   $('#articles').empty();
-  
+
   // DONE: Set up a variable to hold the new article we are creating.
   // DONE: Instantiate an article based on what's in the form fields:
   let article = new Article({
